@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- reset.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- custom js -->
+    <script src="app.js" defer></script>
+
+</head>
+<body>
+    <div class="wrap">
+        
+        <div class="user-form" id="form">
+            <div class="logo">
+                <img src="./img/img2.png" alt="">
+            </div>
+            <div class="search-box">
+                <input type="text" id="search" placeholder="깃허브 유저 검색" autocomplete="off"/>
+                <div class="search-img">
+                    <i class="fas fa-search"></i>  
+                </div>
+            </div>
+        </div>
+
+        <section id="main">
+            <div class="card">
+                <div>
+                    <img src="./img/img1.png" class="avatar" href="">
+                </div>
+                <div class="user-info">
+                    <h2 id="user-id">1nwi</h2>
+                    <p id="user-name">
+                        1nwi
+                    </p>
+                    <ul>
+                        <li><p id="followers">30</p><strong>Followers</strong></li>
+                        <li><p id="following">30</p><strong>Following</strong></li>
+                        <li><p id="public-repos">10</p><strong>Repos</strong></li>
+                    </ul>
+                    <div class="repos">
+                        <div class="repo1">
+                            <a href="#">저장소 1</a>
+                            <span class="repo1-name name">저장소 이름</span>
+                            <span class="repo1-lang">사용 언어</span>
+                        </div>
+                        <div class="repo2">
+                            <a href="#">저장소 2</a>
+                            <span class="repo2-name name">저장소 이름</span>
+                            <span class="repo2-lang">사용 언어</span>
+                        </div>
+                        <div class="repo3">
+                            <a href="#">저장소 3</a>
+                            <span class="repo3-name name">저장소 이름</span>
+                            <span class="repo3-lang">사용 언어</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nonecard">
+                GitHub에 등록된 유저가 아닙니다.
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
